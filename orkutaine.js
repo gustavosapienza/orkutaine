@@ -1,6 +1,5 @@
 
 function onWindowLoad() {
-	document.body.innerHTML = document.body.innerHTML.replace(/Bolsonaro/g, 'Bolsonaro retardado');
 
 	var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
 	link.type = 'image/x-icon';
