@@ -1,0 +1,16 @@
+{
+  "name": "Orkutaine",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "description": "Bora ORKUTear o Facebook com o Orkutaine?",
+  "icons" : {
+    "16" : "icon128.png",
+    "48" : "icon128.png",
+    "128" : "icon128.png"
+  },
+  "content_scripts": [{
+    "matches": ["https://www.facebook.com/*"],
+    "js": [ "orkutaine.js" ],
+    "css": [ "orkutaine.css" ]
+  }]
+}
