@@ -6,6 +6,9 @@
 #facebook  div#pagelet_navigation {
     background: #fff;
     padding: 2px;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding-top: 20px;
 }
 
 #facebook div#pagelet_composer {
